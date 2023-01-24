@@ -209,3 +209,107 @@
     font-weight: lighter;
     line-height: 26px;
 }
+
+/* revies */
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 13vh;
+    margin-bottom: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews_heading{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+}
+
+.review_clients{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 7vw;
+    gap: 40px;
+    margin-bottom: 10vh;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.client img{
+    border-radius: 50%;
+    margin-bottom: 7vh;
+    transform: scale(0.6);
+}
+
+.client p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: hsl(232, 10%, 55%);
+    line-height: 26px;
+    margin-bottom: 7vh;
+    font-weight: bolder;
+}
+
+.client h4{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: hsl(212, 27%, 19%);
+    padding-bottom: 10px;
+}
+
+.client h6{
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+}
+
+.imgs{
+    display: flex;
+}
+
+.imgs img{
+    width: 25%;
+}
+
+/* footer */
+ .footer{
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 0 4vh 0;
+ }
+
+ .footer img{
+    margin-bottom: 6vh;
+ }
+
+ .cl a{
+    color: hsl(168, 34%, 41%);
+    font-size: 16px;
+ }
+
+ .logos{
+    margin-top: 15vh;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+ }
