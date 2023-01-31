@@ -45,7 +45,7 @@
     }
     
     .bg_color{
-        width: 38%;
+        width: 125px;
     }
     
     /* photos bg */
@@ -54,6 +54,7 @@
         gap: 20px;
         padding-top: 30%;
         padding-bottom: 40px;
+        padding-bottom: 10vh
     }
     
     .photo_bg h3{
@@ -103,7 +104,7 @@
     
     .client h6{
         font-size: 14px;
-        line-height: 15px;
+        line-height: 20px;
     }
     
     /* footer */

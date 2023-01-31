@@ -7,6 +7,7 @@
     <title>Sunnyside Agency</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/responsive-mob.css">
     <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,18 +18,27 @@
             <header class="header">
                 <img src="./assets/images/logo.svg" alt="" class="logo">
                 <nav class="nav">
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Projects</a>
-                    <button class="btn-contact">Contact</button>
+                    <div class="nav-menu">
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Projects</a>
+                        <button class="btn-contact">Contact</button>
+                    </div>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </nav>
             </header>
             <h1 class="heading_creative">WE ARE CREATIVES</h1>
-            <a href="#section"><img src="./assets/images/icon-arrow-down.svg" alt="" class="arrow-down"></a>
+            <div class="arrow">
+                <a href="#section"><img src="./assets/images/icon-arrow-down.svg" alt="" class="arrow-down"></a>
+            </div>
         </div>
 
         <main>
-            <section class="texts_photo" id="section">
+            <section class="texts_photo upside-down" id="section">
                 <div class="texts">
                     <h1 class="texts_heading">Transform your brand</h1>
                     <p class="texts_paragraph">We are a full-service creative agency specializing in 
@@ -112,7 +122,7 @@
 
         <footer class="footer">
             <img src="./assets/images/image.png" alt="">
-            <nav class="nav cl">
+            <nav class="footer-menu">
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Projects</a>

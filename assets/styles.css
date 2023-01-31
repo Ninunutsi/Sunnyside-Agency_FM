@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-style: normal;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .front_page{
@@ -21,12 +22,12 @@
     padding: 5vh 3vw;
 }
 
-.nav{
+.nav-menu{
     display: flex;
     gap: 60px;
     align-items: center;
 }
-.nav a{
+.nav-menu a{
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -58,21 +59,38 @@
     color: white;
 }
 
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
 
 .heading_creative{
     text-align: center;
     margin-top: 7vh;
     margin-bottom: 10vh;
     font-size: 55px;
-    line-height: 65px;
+    line-height: 69px;
     letter-spacing: 5px;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     color:hsl(0, 0%, 100%);
 }
 
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+
 .arrow-down{
-    display:block;
     margin: auto;
     cursor: pointer;
     animation: dropdown 2s infinite;
@@ -109,6 +127,7 @@
     justify-content: center;
     padding-left: 8%;
     padding-right: 3%;
+    width: 50%;
 }
 
 .texts_heading{
@@ -302,9 +321,17 @@
     margin-bottom: 6vh;
  }
 
- .cl a{
+ .footer-menu{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+ .footer-menu a{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
     color: hsl(168, 34%, 41%);
-    font-size: 16px;
  }
 
  .logos{
